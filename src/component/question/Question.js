@@ -2,11 +2,11 @@ import React from "react";
 
 const Question = () => {
   return (
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
+    <div className="accordion" id="accordionExample">
+      <div className="accordion-item">
+        <h2 className="accordion-header" id="headingOne">
           <button
-            class="accordion-button "
+            className="accordion-button "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseOne"
@@ -18,11 +18,11 @@ const Question = () => {
         </h2>
         <div
           id="collapseOne"
-          class="accordion-collapse collapse show"
+          className="accordion-collapse collapse show"
           aria-labelledby="headingOne"
           data-bs-parent="#accordionExample"
         >
-          <div class="accordion-body">
+          <div className="accordion-body">
             React uses a declarative paradigm that makes it easier to reason
             about your application and aims to be both efficient and flexible.
             It designs simple views for each state in your application, and
@@ -31,10 +31,10 @@ const Question = () => {
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
+      <div className="accordion-item">
+        <h2 className="accordion-header" id="headingTwo">
           <button
-            class="accordion-button collapsed"
+            className="accordion-button collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseTwo"
@@ -46,11 +46,11 @@ const Question = () => {
         </h2>
         <div
           id="collapseTwo"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="headingTwo"
           data-bs-parent="#accordionExample"
         >
-          <div class="accordion-body">
+          <div className="accordion-body">
             Props are used to pass data from one component to another. The state
             is a local data storage that is local to the component only and
             cannot be passed to other components. The this.setState property is
@@ -58,10 +58,10 @@ const Question = () => {
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
+      <div className="accordion-item">
+        <h2 className="accordion-header" id="headingThree">
           <button
-            class="accordion-button collapsed"
+            className="accordion-button collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseThree"
@@ -73,18 +73,18 @@ const Question = () => {
         </h2>
         <div
           id="collapseThree"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="headingThree"
           data-bs-parent="#accordionExample"
         >
-          <div class="accordion-body">
+          <div className="accordion-body">
             <p>
               Where is useEffect used? useEffect after render: We know that, the
               useEffect() is used for causing side effects in functional
               components and it is also capable for handling
               componentDidMount(), componentDidUpdate() and
-              componentWillUnmount() life-cycle methods of class based
-              components into functional component.
+              componentWillUnmount() life-cycle methods of className based
+              components into functional component.class
             </p>
             <strong>
               there is many way to use useEffect , i will tell you 3 use cases

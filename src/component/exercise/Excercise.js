@@ -1,7 +1,14 @@
 import React from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Excercise = () => {
   const breakTime = localStorage.getItem("exercise-break");
+  const showToast = () => {
+    toast.success("Congratulation, Activity is Completed.", {
+      position: "top-center",
+    });
+  };
   return (
     <div>
       <h5 className="fw-bold my-4">Exercise Details</h5>
@@ -23,7 +30,10 @@ const Excercise = () => {
           s
         </h6>
       </div>
-      <button className="btn btn-primary w-100">Activity Complete</button>
+      <button onClick={showToast} className="btn btn-primary w-100">
+        Activity Complete
+      </button>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
