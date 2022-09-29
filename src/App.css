@@ -11,6 +11,10 @@
   }
 }
 
-.profile-img{
+.profile-img {
   width: 4rem;
+}
+
+.pointer {
+  cursor: pointer;
 }

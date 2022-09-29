@@ -16,4 +16,15 @@ function setTime(event) {
   setStyle.innerText = "Added";
 }
 
-export { setTime };
+function addBreak(event) {
+  const getBreakTime = event.target.innerText;
+  localStorage.setItem("exercise-break", getBreakTime);
+  const getLocalStorageBreak = localStorage.getItem("exercise-break");
+  const getBreakBox = document.getElementById("break-time");
+  getBreakBox.innerText = getLocalStorageBreak;
+
+  console.log(typeof getLocalStorageBreak);
+  return getLocalStorageBreak;
+}
+
+export { setTime, addBreak };

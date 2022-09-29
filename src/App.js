@@ -1,5 +1,6 @@
 import "./App.css";
 import Cards from "./component/cards/Cards";
+import { addBreak } from "./utilities/utilities";
 
 function App() {
   return (
@@ -57,17 +58,32 @@ function App() {
           <div>
             <h5 className="fw-bold my-4 mx-2">Add a Break</h5>
             <div className="d-flex justify-content-between align-items-center bg-light rounded-2 px-3">
-              <div className="p-2">
-                <p className="bg-white rounded-circle p-2 mb-0">10s</p>
+              {/* <button
+                id="tenn"
+                onClick={addBreak}
+                className="btn bg-white rounded-pill"
+              >
+                <span>10</span>s
+              </button> */}
+              <div onClick={addBreak} className="p-2">
+                <p className="bg-white rounded-circle p-2 mb-0">
+                  <span className="pointer" id="ten">10</span>s
+                </p>
               </div>
-              <div className="p-2">
-                <p className="bg-white rounded-circle p-2 mb-0">10s</p>
+              <div onClick={addBreak} className="p-2">
+                <p className="bg-white rounded-circle p-2 mb-0">
+                  <span className="pointer" id="twenty">20</span>s
+                </p>
               </div>
-              <div className="p-2">
-                <p className="bg-white rounded-circle p-2 mb-0">10s</p>
+              <div onClick={addBreak} className="p-2">
+                <p className="bg-white rounded-circle p-2 mb-0">
+                  <span className="pointer" id="thirty">30</span>s
+                </p>
               </div>
-              <div className="p-2">
-                <p className="bg-white rounded-circle p-2 mb-0">10s</p>
+              <div onClick={addBreak} className="p-2">
+                <p className="bg-white rounded-circle p-2 mb-0">
+                  <span className="pointer" id="forty">40</span>s
+                </p>
               </div>
             </div>
           </div>
@@ -85,7 +101,7 @@ function App() {
             </div>
             <div className="bg-light p-3 rounded-3 mb-5">
               <h6 className="mb-0 fw-bold">
-                Break Time: <span className="text-muted">10s</span>
+                Break Time: <span id="break-time" className="text-muted">10</span>s
               </h6>
             </div>
             <button className="btn btn-primary w-100">Activity Complete</button>
