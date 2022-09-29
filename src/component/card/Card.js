@@ -19,7 +19,7 @@ const Card = () => {
         For Age: <span className="text-dark">20-28</span>
       </h6>
       <h6 className="text-muted">
-        Time Required: <span className="text-dark">30s</span>
+        Time Required: <span className="text-dark">30</span>s
       </h6>
       <button className="btn btn-primary w-100 mt-3">Add to list</button>
     </div>
