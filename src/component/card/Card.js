@@ -3,7 +3,7 @@ import React from "react";
 import { setTime } from "../../utilities/utilities";
 
 const Card = (props) => {
-  const { name, img, time , key} = props.card;
+  const { name, img, time, key } = props.card;
   return (
     <div className="m-1 p-3 bg-white rounded-4 shadow">
       <img

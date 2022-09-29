@@ -22,9 +22,6 @@ function addBreak(event) {
   const getLocalStorageBreak = localStorage.getItem("exercise-break");
   const getBreakBox = document.getElementById("break-time");
   getBreakBox.innerText = getLocalStorageBreak;
-
-  console.log(typeof getLocalStorageBreak);
-  return getLocalStorageBreak;
 }
 
 export { setTime, addBreak };
