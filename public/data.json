@@ -2,37 +2,37 @@
   {
     "key": 100,
     "name": "Chest Press Machine",
-    "img": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z3ltfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "img": "https://images.unsplash.com/photo-1546483875-ad9014c88eba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGd5bXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60",
     "time": 60
   },
   {
     "key": 101,
-    "name": "Chest Press Machine",
-    "img": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z3ltfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "name": "Kettlebells",
+    "img": "https://images.unsplash.com/photo-1561214078-f3247647fc5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "time": 90
   },
   {
     "key": 102,
-    "name": "Chest Press Machine",
+    "name": "treadmill",
     "img": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z3ltfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
     "time": 120
   },
   {
     "key": 103,
-    "name": "Chest Press Machine",
-    "img": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z3ltfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "name": "dumbbells",
+    "img": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "time": 150
   },
   {
     "key": 104,
-    "name": "Chest Press Machine",
-    "img": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z3ltfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "name": "resistance bands",
+    "img": "https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80",
     "time": 180
   },
   {
     "key": 105,
-    "name": "Chest Press Machine",
-    "img": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z3ltfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-    "time": 30
+    "name": "abdominal roller",
+    "img": "https://images.unsplash.com/photo-1522898467493-49726bf28798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "time": 300
   }
 ]

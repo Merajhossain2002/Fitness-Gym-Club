@@ -1,5 +1,5 @@
 import "./App.css";
-import Card from "./component/card/Card";
+import Cards from "./component/cards/Cards";
 
 function App() {
   return (
@@ -12,14 +12,7 @@ function App() {
             <h5 className="text-dark fw-bold ms-2 mb-4">
               Select today's exercise
             </h5>
-            <div className="grid">
-              <Card></Card>
-              <Card></Card>
-              <Card></Card>
-              <Card></Card>
-              <Card></Card>
-              <Card></Card>
-            </div>
+            <Cards></Cards>
           </div>
         </div>
         {/*============================= Mini profile section ================= */}
