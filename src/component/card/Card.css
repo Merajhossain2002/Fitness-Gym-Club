@@ -1,0 +1,11 @@
+.img-size {
+  width: 14rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 576px) {
+  .img-size {
+    width: 100%;
+  }
+}
