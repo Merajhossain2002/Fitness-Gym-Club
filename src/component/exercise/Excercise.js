@@ -1,6 +1,7 @@
 import React from "react";
 
 const Excercise = () => {
+  const breakTime = localStorage.getItem("exercise-break");
   return (
     <div>
       <h5 className="fw-bold my-4">Exercise Details</h5>
@@ -17,7 +18,7 @@ const Excercise = () => {
         <h6 className="mb-0 fw-bold">
           Break Time:{" "}
           <span id="break-time" className="text-muted">
-            10
+            {breakTime}
           </span>
           s
         </h6>
